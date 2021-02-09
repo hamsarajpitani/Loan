@@ -1,0 +1,33 @@
+#enquiry{
+    position: fixed;
+    
+    bottom: 40vh;
+  
+    letter-spacing: 2px;
+    font-weight: 800;
+    right: 0;
+    margin-right: -3rem;
+    font-size: .8rem;
+   
+    text-transform: capitalize;
+    transform: rotate(
+        -90deg
+        );
+
+    &:hover,&:focus{
+        outline: none;
+        border: none;
+    }    
+}
+
+
+// @media (max-width: 767.98px) { 
+   
+
+//     #enquiry{
+//         bottom: 40vh;
+//         right: -5vw;
+//         margin-bottom: -3rem;
+//     }
+    
+// }

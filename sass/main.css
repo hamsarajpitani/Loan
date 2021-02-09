@@ -80,4 +80,22 @@ h1 {
 .horizontal-line {
   border-radius: 1rem;
 }
+
+#enquiry {
+  position: fixed;
+  bottom: 40vh;
+  letter-spacing: 2px;
+  font-weight: 800;
+  right: 0;
+  margin-right: -3rem;
+  font-size: .8rem;
+  text-transform: capitalize;
+  -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+}
+
+#enquiry:hover, #enquiry:focus {
+  outline: none;
+  border: none;
+}
 /*# sourceMappingURL=main.css.map */
