@@ -1,12 +1,14 @@
 #enquiry{
     position: fixed;
-    
     bottom: 50vh;
+    right: 0;
     z-index: 10;
     letter-spacing: 2px;
     font-weight: 800;
-    right: 0;
-    margin-right: -3rem;
+    
+    padding: 10px 19px 28px 19px;
+     margin-right: -4rem;
+
     font-size: .8rem;
    
     text-transform: capitalize;
