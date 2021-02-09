@@ -35,6 +35,7 @@
   font-size: 1rem;
   text-transform: capitalize;
   font-weight: 500;
+  z-index: -1;
 }
 
 .carousel-caption {
@@ -83,11 +84,12 @@ h1 {
 
 #enquiry {
   position: fixed;
+  padding: 10px 19px 28px 19px;
   bottom: 40vh;
   letter-spacing: 2px;
   font-weight: 800;
   right: 0;
-  margin-right: -3rem;
+  margin-right: -4rem;
   font-size: .8rem;
   text-transform: capitalize;
   -webkit-transform: rotate(-90deg);
@@ -97,5 +99,18 @@ h1 {
 #enquiry:hover, #enquiry:focus {
   outline: none;
   border: none;
+}
+
+.whatsapp {
+  text-decoration: none;
+  color: white;
+}
+
+.whatsapp--btn {
+  background-color: #2ac597;
+}
+
+.whatsapp:focus, .whatsapp:hover {
+  color: white;
 }
 /*# sourceMappingURL=main.css.map */

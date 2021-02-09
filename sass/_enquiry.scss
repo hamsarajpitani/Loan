@@ -1,14 +1,12 @@
 #enquiry{
     position: fixed;
-    bottom: 50vh;
-    right: 0;
-    z-index: 10;
+    padding: 10px 19px 28px 19px;
+    bottom: 40vh;
+  
     letter-spacing: 2px;
     font-weight: 800;
-    
-    padding: 10px 19px 28px 19px;
-     margin-right: -4rem;
-
+    right: 0;
+    margin-right: -4rem;
     font-size: .8rem;
    
     text-transform: capitalize;
@@ -22,12 +20,27 @@
     }    
 }
 
- @media (max-width: 767.98px) { 
+.whatsapp{
+
+    &--btn{
+        background-color: #2ac597;
+    }
+
+
+    text-decoration: none;
+    color: white;
+    &:focus,&:hover{
+        color: white;
+    }
+}
+
+// @media (max-width: 767.98px) { 
    
 
-    #enquiry{    
-       bottom: 35vh;  
-       margin-bottom: -2rem;
-     }
+//     #enquiry{
+//         bottom: 40vh;
+//         right: -5vw;
+//         margin-bottom: -3rem;
+//     }
     
- }
+// }
